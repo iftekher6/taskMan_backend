@@ -16,7 +16,7 @@ config({
 })
  
 // const allowedOrigins = 'https://final-todo-umber.vercel.app/'
-const allowedOrigins = 'https://task-man-frontend.vercel.app/'
+const allowedOrigins = `${process.env.FRONTEND_URI}`
 
 //Using middleware
 app.use(express.json());
