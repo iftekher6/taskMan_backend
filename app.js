@@ -16,7 +16,7 @@ config({
 })
  
 // const allowedOrigins = 'https://final-todo-umber.vercel.app/'
-const allowedOrigins = 'http://localhost:5173/'
+const allowedOrigins = 'https://task-man-frontend.vercel.app/'
 
 //Using middleware
 app.use(express.json());
